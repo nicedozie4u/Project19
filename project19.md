@@ -155,8 +155,9 @@ The following outlines the steps:
 
 - Exporting the environment variable **ANSIBLE_CONFIG** to point to the ansible.cfg from the repo and running the ansible-playbook command: `$ ansible-playbook -i inventory/aws_ec2.yml playbook/site.yml`
 
-![](https://github.com/somex6/Darey.io-Projects/blob/main/img/project19/running%20ansible%20playbook.png)
-![](https://github.com/somex6/Darey.io-Projects/blob/main/img/project19/running%20ansible%20playbook-2.png)
+![](./images/running%20ansible.png)
+![](./images/running%20ansible02.png)
+![](./images/running%20ansible03.png)
 
 ## STEP 5: Setting Slack Notification For trigger Events
 
