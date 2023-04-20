@@ -75,12 +75,24 @@ The following outlines the steps:
 ![](./images/confirm%20%26%20apply02.png)
 ![](./images/applying.png)
 ![](./images/applying02.png)
+![](./images/Instances%20created.png)
+![](./images/Security%20groups%20creted.png)
+![](./images/Load%20balancer%20created.png)
+![](./images/S3%20bucket%20created.png)
+![](./images/dynamodb%20table%20created.png)
+![](./images/VPC%20created.png)
+![](./images/Subnets%20created.png)
+![](./images/routing%20tables.png)
+![](./images/Cert%20created.png)
+
 
 ## STEP 4: Configuring The Infrastructure With Ansible
 
 - After a successful execution of terraform apply, connecting to the bastion server through ssh-agent to run ansible against the infrastructure
 
-![](https://github.com/somex6/Darey.io-Projects/blob/main/img/project19/connecting%20to%20the%20bastion.png)
+![](./images/key.png)
+
+![](./images/key02.png)
 
 - Updating the **nginx.conf.j2** file to input the internal load balancer dns name generated via terraform:
 
