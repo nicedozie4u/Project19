@@ -142,9 +142,8 @@ The following outlines the steps:
 
 ![](./images/update%20fstab%20for%20wordpress.png)
 
-![](./images/ansible%20error.png)
 
-- 
+
 
 - Verifying the inventory
 
