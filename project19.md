@@ -10,7 +10,7 @@ The following outlines the steps:
 - Creating a new repository called terraform-cloud and pushing my terraform codes developed in project 18 into the repository
 - Connecting the workspace to the new repository created and clicking on **create workspace**
 
-![](./images/Install%20packer.png)
+
 ![](./images/install%20ansible.png)
 ![](./images/create%20workspace01.png)
 ![](./images/create%20workspace02.png)
@@ -28,7 +28,7 @@ The following outlines the steps:
 
 - Installing **packer** on my local machine:
 
-![](https://github.com/somex6/Darey.io-Projects/blob/main/img/project19/install%20packer.png)
+![](./images/Install%20packer.png)
 
 - Cloning the [repository](https://github.com/darey-devops/PBL-project-19.git) and changing directory to the AMI folder
 
@@ -36,23 +36,27 @@ The following outlines the steps:
 
 **For Bastion Server**
 
-![](https://github.com/somex6/Darey.io-Projects/blob/main/img/project19/packer%20build%20bastion.png)
-![](https://github.com/somex6/Darey.io-Projects/blob/main/img/project19/packer%20build%20bastion-2.png)
+![](./images/ami%20created.png)
+![](./images/bastion%20ami%20created.png)
 
 **For Nginx Server**
 
-![](https://github.com/somex6/Darey.io-Projects/blob/main/img/project19/packer%20build%20nginx.png)
-![](https://github.com/somex6/Darey.io-Projects/blob/main/img/project19/packer%20build%20nginx-2.png)
+![](./images/creating%20nginx%20ami.png)
+
+![](./images/nginx%20ami%20created.png)
 
 **For Tooling and Wordpress Server**
 
-![](https://github.com/somex6/Darey.io-Projects/blob/main/img/project19/packer%20build%20web.png)
-![](https://github.com/somex6/Darey.io-Projects/blob/main/img/project19/packer%20build%20web-2.png)
+![](./images/creating%20ubuntu%20ami.png)
+
+![](./images/ububtu%20ami%20created.png)
 
 **For Jenkins, Artifactory and sonarqube Server**
 
-![](https://github.com/somex6/Darey.io-Projects/blob/main/img/project19/packer%20build%20ubuntu.png)
-![](https://github.com/somex6/Darey.io-Projects/blob/main/img/project19/packer%20build%20ubuntu-2.png)
+![](./images/web%20ami%20creating.png)
+![](./images/web%20ami%20created.png)
+
+![](./images/all%20amis%20created.png)
 
 ## STEP 3: Running The Terraform Cloud To Provision Resources
 
