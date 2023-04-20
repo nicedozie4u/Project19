@@ -63,14 +63,18 @@ The following outlines the steps:
 
 - Inputing the AMI ID in my **terraform.tfvars** file for the servers built with packer which terraform will use to provision Bastion, Nginx, Tooling and Wordpress server
 
-![](https://github.com/somex6/Darey.io-Projects/blob/main/img/project19/updating%20ami%20details.png)
+![](./images/update%20terraform%20with%20new%20ami's.png)
 
 - Pushing the codes to my repository will cause terraform cloud to trigger a plan
 - Accepting the plan to to trigger an apply command
 
-![](https://github.com/somex6/Darey.io-Projects/blob/main/img/project19/terraform%20apply-1.png)
-![](https://github.com/somex6/Darey.io-Projects/blob/main/img/project19/terraform%20apply-2.png)
-![](https://github.com/somex6/Darey.io-Projects/blob/main/img/project19/terraform%20apply-3.png)
+![](./images/git%20push.png)
+![](./images/new%20push%20captured.png)
+![](./images/run%20successful.png)
+![](./images/confirm%20%26%20apply.png)
+![](./images/confirm%20%26%20apply02.png)
+![](./images/applying.png)
+![](./images/applying02.png)
 
 ## STEP 4: Configuring The Infrastructure With Ansible
 
