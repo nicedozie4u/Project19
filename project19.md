@@ -15,6 +15,7 @@ The following outlines the steps:
 ![](./images/create%20workspace01.png)
 ![](./images/create%20workspace02.png)
 ![](./images/create%20workspace03.png)
+![](./images/create%20workspace04.png)
 ![](./images/create%20workspace05.png)
 
 - Clicking on **configure variables** on the next page to setup my AWS credentials as environment variables.
