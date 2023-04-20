@@ -138,11 +138,11 @@ The following outlines the steps:
 
 **For Tooling**
 
-![](https://github.com/somex6/Darey.io-Projects/blob/main/img/project19/updating%20the%20efs%20point%20of%20tooling.png)
+![](./images/update%20fstab%20for%20tooling.png)
 
 **For Wordpress**
 
-![](https://github.com/somex6/Darey.io-Projects/blob/main/img/project19/updating%20the%20efs%20point%20of%20wordpress.png)
+![](./images/update%20fstab%20for%20wordpress.png)
 
 - Verifying the inventory
 
