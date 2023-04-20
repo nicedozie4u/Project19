@@ -47,14 +47,15 @@ The following outlines the steps:
 
 **For Tooling and Wordpress Server**
 
-![](./images/creating%20ubuntu%20ami.png)
+![](./images/web%20ami%20creating.png)
 
-![](./images/ububtu%20ami%20created.png)
+![](./images/web%20ami%20created.png)
 
 **For Jenkins, Artifactory and sonarqube Server**
 
-![](./images/web%20ami%20creating.png)
-![](./images/web%20ami%20created.png)
+![](./images/creating%20ubuntu%20ami.png)
+
+![](./images/ububtu%20ami%20created.png)
 
 ![](./images/all%20amis%20created.png)
 
