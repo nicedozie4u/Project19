@@ -113,7 +113,7 @@ The following outlines the steps:
 ![](./images/replace%20tooling%20endpoint.png)
 
 
-![](./images/ansible%20error.png)
+
 
 **For Tooling**
 
@@ -142,11 +142,17 @@ The following outlines the steps:
 
 ![](./images/update%20fstab%20for%20wordpress.png)
 
-![](./images/update%20file%20system%20for%20wordpress.png)
+![](./images/ansible%20error.png)
+
+- 
 
 - Verifying the inventory
 
-![](https://github.com/somex6/Darey.io-Projects/blob/main/img/project19/ansible%20inventory%20graph.png)
+![](./images/update%20roles%20path.png)
+
+![](./images/edit%20config%20path.png)
+
+![](./images/ansible-inventory%20graph.png)
 
 - Exporting the environment variable **ANSIBLE_CONFIG** to point to the ansible.cfg from the repo and running the ansible-playbook command: `$ ansible-playbook -i inventory/aws_ec2.yml playbook/site.yml`
 
