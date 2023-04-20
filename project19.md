@@ -11,7 +11,7 @@ The following outlines the steps:
 - Connecting the workspace to the new repository created and clicking on **create workspace**
 
 
-![](./images/install%20ansible.png)
+
 ![](./images/create%20workspace01.png)
 ![](./images/create%20workspace02.png)
 ![](./images/create%20workspace03.png)
@@ -94,15 +94,37 @@ The following outlines the steps:
 
 ![](./images/key02.png)
 
+- Install Ansible
+
+![](./images/install%20ansible.png)
+
 - Updating the **nginx.conf.j2** file to input the internal load balancer dns name generated via terraform:
 
-![](https://github.com/somex6/Darey.io-Projects/blob/main/img/project19/updating%20nginx%20conf.png)
+![](./images/update%20loadbalancer.png)
+
+![](./images/update%20loadbalancer01.png)
 
 - Updating the RDS endpoints, Database name, password and username in the **setup-db.yml** file for both the tooling and wordpress role
 
 **EFS Details**
 
-![](https://github.com/somex6/Darey.io-Projects/blob/main/img/project19/efs%20created.png)
+![](./images/copy%20rds%20endpoint.png)
+
+![](./images/replace%20tooling%20endpoint.png)
+
+![](./images/efs%20for%20wordpress.png)
+
+![](./images/update%20fstab%20for%20wordpress.png)
+
+![](./images/update%20file%20system%20for%20wordpress.png)
+
+![](./images/fstab%20for%20tooling.png)
+
+![](./images/update%20fstab%20for%20tooling.png)
+
+![](./images/update%20file%20system%20for%20tooling.png)
+
+![](./images/ansible%20error.png)
 
 **For Tooling**
 
