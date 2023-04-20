@@ -113,13 +113,6 @@ The following outlines the steps:
 ![](./images/replace%20tooling%20endpoint.png)
 
 
-
-
-
-![](./images/update%20fstab%20for%20tooling.png)
-
-![](./images/update%20file%20system%20for%20tooling.png)
-
 ![](./images/ansible%20error.png)
 
 **For Tooling**
@@ -134,15 +127,22 @@ The following outlines the steps:
 
 **For Tooling**
 
-![](./images/update%20file%20system%20for%20wordpress.png)
 
 ![](./images/fstab%20for%20tooling.png)
+
+
+
+![](./images/update%20fstab%20for%20tooling.png)
+
+![](./images/update%20file%20system%20for%20tooling.png)
 
 **For Wordpress**
 
 ![](./images/efs%20for%20wordpress.png)
 
 ![](./images/update%20fstab%20for%20wordpress.png)
+
+![](./images/update%20file%20system%20for%20wordpress.png)
 
 - Verifying the inventory
 
