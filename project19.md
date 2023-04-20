@@ -161,73 +161,47 @@ The following outlines the steps:
 
 ## STEP 5: Setting Slack Notification For trigger Events
 
-- From the notification option in the settings tab, selecting slack option
+![](./images/confirm%20ssh%20to%20private%20instance02.png)
 
-![](https://github.com/somex6/Darey.io-Projects/blob/main/img/project19/setting%20up%20slack%20notification-1.png)
-![](https://github.com/somex6/Darey.io-Projects/blob/main/img/project19/setting%20up%20slack%20notification-2.png)
+![](./images/confirm%20ssh%20to%20private%20instance02.png)
 
-- Creating the webhook to use to setup the notification
+![](./images/wordpress%20error%20resolved.png)
 
-![](https://github.com/somex6/Darey.io-Projects/blob/main/img/project19/setting%20up%20slack%20notification-3.png)
+![](./images/uncomment%20alb.png)
 
-## STEP 6: Setting The Terraform Cloud To Execute Only From 'Dev' Branch
+![](./images/uncomment%20listener.png)
 
-- Creating 3 branches dev, prod and test 
+![](./images/uncomment%20listener03.png)
 
-![](https://github.com/somex6/Darey.io-Projects/blob/main/img/project19/3%20branches%20created.png)
+![](./images/uncomment%20autoscalling%20attach.png)
 
-- On the version control page in the settings tab, setting the **VCS branch** to **dev**
+![](./images/uncomment%20autoscalling%20attach02.png)
 
-![](https://github.com/somex6/Darey.io-Projects/blob/main/img/project19/running%20trigger%20from%20dev%20branch.png)
+![](./images/uncomment%20autoscalling%20attach04.png)
 
-- After pushing the code to the dev branch the terraform plan command is triggered and notifications received from slack:
+![](./images/git%20push%20final.png)
 
-![](https://github.com/somex6/Darey.io-Projects/blob/main/img/project19/notifications%20received.png)
+![](./images/confirm%20%26%20apply%20for%20listners.png)
 
-- Destroying the infrastructure by clicking on **Destruction and Delete** option in the settings tab:
+![](./images/loadbalancer%20listner%20readded.png)
 
-![](https://github.com/somex6/Darey.io-Projects/blob/main/img/project19/destroying%20the%20infrastructure.png)
-![](https://github.com/somex6/Darey.io-Projects/blob/main/img/project19/destroying%20the%20infrastructure-2.png)
+![](./images/loadbalancer%20listner%20added02.png)
 
-## STEP 7: Working With Terraform Private Module Registry
+![](./images/wordpress%20targetgroup%20healthcheck.png)
 
-- Forking the repo from [hashicorp](https://github.com/hashicorp/learn-private-module-aws-s3-webapp)
-- Then under my repository's tab, clicking on **tag** to create tag, clicking 'Create a new release' and adding 1.0.0 to the tag version field setting the release title to "First module release"
+![](./images/tooling%20targetgroup%20helthcheck.png)
 
-![](https://github.com/somex6/Darey.io-Projects/blob/main/img/project19/creating%20release%20tag.png)
-![](https://github.com/somex6/Darey.io-Projects/blob/main/img/project19/creating%20release%20tags-2.png)
+![](./images/restart%20nginx%20on%20nginx%20server.png)
 
-- Clicking **Publish release** to create the release
-- To create a Terraform module for my private module registry in the [terraform registry site]
-(), navigating to the Registry header in Terraform Cloud and selecting **Publish private module** from the upper right corner.
-- Selecting the GitHub(Custom) VCS provider that I configured and choosing the name of the module repository **terraform-aws-s3-webapp** and clicking the **Publish module** button.
+![](./images/nginx%20targetgroup%20healthcheck%20healthy.png)
 
-![](https://github.com/somex6/Darey.io-Projects/blob/main/img/project19/signing%20in%20to%20terraform%20registry.png)
-![](https://github.com/somex6/Darey.io-Projects/blob/main/img/project19/publishing%20a%20module.png)
-![](https://github.com/somex6/Darey.io-Projects/blob/main/img/project19/creating%20second%20workspace.png)
-![](https://github.com/somex6/Darey.io-Projects/blob/main/img/project19/creating%20second%20workspace-2.png)
+![](./images/wordpress%20successful.png)
 
-- To create a configuration that uses the module; forking the repo [learn private module](https://github.com/hashicorp/learn-private-module-root/) which will access the module published and Terraform will use it to create the infrastructure.
+![](./images/tooling%20successful.png)
 
-**main.tf**
+![](./images/gitlab%20pipelines%20running.png)
 
-![](https://github.com/somex6/Darey.io-Projects/blob/main/img/project19/main.tf.png)
 
-**variables.tf**
-
-![](https://github.com/somex6/Darey.io-Projects/blob/main/img/project19/variables.tf.png)
-
-**outputs.tf**
-
-![](https://github.com/somex6/Darey.io-Projects/blob/main/img/project19/outputs.tf.png)
-
-- Creating a new workspace and selecting the **learn-private-module-root** repository
-
-![](https://github.com/somex6/Darey.io-Projects/blob/main/img/project19/20-creating%20workspace.png)
-
-- Clicking on **Configure Variable** to set my AWS credentials as environment variable and also set the values of these variables;**region, prefix and name**, which is specified in the root module configuration
-
-![](https://github.com/somex6/Darey.io-Projects/blob/main/img/project19/creating%20variables.png)
 
 - Deploying the infrastructure by clicking on **start new plan**
 
