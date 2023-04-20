@@ -16,11 +16,11 @@ The following outlines the steps:
 ![](./images/create%20workspace02.png)
 ![](./images/create%20workspace03.png)
 ![](./images/create%20workspace04.png)
-![](./images/create%20workspace05.png)
+
 
 - Clicking on **configure variables** on the next page to setup my AWS credentials as environment variables.
 
-![](https://github.com/somex6/Darey.io-Projects/blob/main/img/project19/11-creating%20variables.png)
+![](./images/create%20workspace05.png)
 
 - Now my Terraform cloud is all set to apply the codes from GitHub and create all necessary AWS resources.
 
