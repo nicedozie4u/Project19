@@ -203,7 +203,7 @@ The following outlines the steps:
 
 ![](./images/tooling%20successful.png)
 
-![](./images/gitlab%20pipelines%20running.png)
+
 
 
 
@@ -214,4 +214,10 @@ The following outlines the steps:
 - Destroying the Infrastructure
 
 ![](./images/destroy%20infrastructure.png)
+
+- Gitlab pipelines created on the project
+
+![](./images/gitlab%20pipelines%20running.png)
+
+THE END!!!
 
