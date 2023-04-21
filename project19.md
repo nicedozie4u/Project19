@@ -76,7 +76,7 @@ The following outlines the steps:
 ![](./images/applying.png)
 ![](./images/applying02.png)
 
-- Confirm infrastructure was created
+- Confirm infrastructure was created successfully
 
 ![](./images/Instances%20created.png)
 ![](./images/Security%20groups%20creted.png)
