@@ -75,6 +75,9 @@ The following outlines the steps:
 ![](./images/confirm%20%26%20apply02.png)
 ![](./images/applying.png)
 ![](./images/applying02.png)
+
+- Confirm infrastructure was created
+
 ![](./images/Instances%20created.png)
 ![](./images/Security%20groups%20creted.png)
 ![](./images/Load%20balancer%20created.png)
@@ -111,16 +114,6 @@ The following outlines the steps:
 ![](./images/copy%20rds%20endpoint.png)
 
 ![](./images/replace%20tooling%20endpoint.png)
-
-
-
-
-**For Tooling**
-
-
-
-**For Wordpress**
-
 
 
 - Updating the EFS Access point ID for both the wordpress and tooling role in the **main.yml**
