@@ -153,19 +153,20 @@ The following outlines the steps:
 
 ![](./images/ansible-inventory%20graph.png)
 
-- Exporting the environment variable **ANSIBLE_CONFIG** to point to the ansible.cfg from the repo and running the ansible-playbook command: `$ ansible-playbook -i inventory/aws_ec2.yml playbook/site.yml`
+- Exporting the environment variable **ANSIBLE_CONFIG** to point to the ansible.cfg from the repo and running the ansible-playbook command: `$ ansible-playbook -i inventory/aws_ec2.yaml playbook/site.yml`
 
 ![](./images/running%20ansible.png)
 ![](./images/running%20ansible02.png)
 ![](./images/running%20ansible03.png)
 
-## STEP 5: Setting Slack Notification For trigger Events
+## STEP 5: Confirm connectivity from the bastion to other instances
 
 ![](./images/confirm%20ssh%20to%20private%20instance02.png)
 
-![](./images/confirm%20ssh%20to%20private%20instance02.png)
 
 ![](./images/wordpress%20error%20resolved.png)
+
+- Update listerners and autoscaling group
 
 ![](./images/uncomment%20alb.png)
 
