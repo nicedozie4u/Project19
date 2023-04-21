@@ -180,13 +180,21 @@ The following outlines the steps:
 
 ![](./images/uncomment%20autoscalling%20attach04.png)
 
+- git push config
+
 ![](./images/git%20push%20final.png)
 
+- apply to create infrastructure
+
 ![](./images/confirm%20%26%20apply%20for%20listners.png)
+
+- Confirm listeners are now added to Internal and external loadbalancers
 
 ![](./images/loadbalancer%20listner%20readded.png)
 
 ![](./images/loadbalancer%20listner%20added02.png)
+
+- Confirm tooling, wordpress and nginx healthchecks are healthy.
 
 ![](./images/wordpress%20targetgroup%20healthcheck.png)
 
@@ -196,7 +204,7 @@ The following outlines the steps:
 
 ![](./images/nginx%20targetgroup%20healthcheck%20healthy.png)
 
-**Testing the Infrastructure**
+**STEP 6: Testing the Infrastructure**
 
 ![](./images/wordpress%20successful.png)
 
