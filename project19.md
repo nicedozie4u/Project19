@@ -195,6 +195,8 @@ The following outlines the steps:
 
 ![](./images/nginx%20targetgroup%20healthcheck%20healthy.png)
 
+**Testing the Infrastructure**
+
 ![](./images/wordpress%20successful.png)
 
 ![](./images/tooling%20successful.png)
@@ -203,17 +205,11 @@ The following outlines the steps:
 
 
 
-- Deploying the infrastructure by clicking on **start new plan**
 
-![](https://github.com/somex6/Darey.io-Projects/blob/main/img/project19/22-running%20the%20terraform%20apply.png)
-![](https://github.com/somex6/Darey.io-Projects/blob/main/img/project19/22-running%20the%20terraform%20apply-2.png)
 
-**Testing the Infrastructure**
 
-![](https://github.com/somex6/Darey.io-Projects/blob/main/img/project19/testing%20the%20deployment.png)
-![](https://github.com/somex6/Darey.io-Projects/blob/main/img/project19/testing%20the%20deployment-2.png)
 
 - Destroying the Infrastructure
 
-![](https://github.com/somex6/Darey.io-Projects/blob/main/img/project19/23-terraform%20destroy.png)
-![](https://github.com/somex6/Darey.io-Projects/blob/main/img/project19/23-terrafrorm%20destroy-2.png)
+![](./images/destroy%20infrastructure.png)
+
